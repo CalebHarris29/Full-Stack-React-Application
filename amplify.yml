@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # amplify.yml  (place at repo root)
+=======
+>>>>>>> 9c1451f (Add Amplify build spec)
 version: 1
 frontend:
   phases:
@@ -17,3 +20,7 @@ frontend:
       - node_modules/**/*
 runtime-versions:
   node: 18
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9c1451f (Add Amplify build spec)
