@@ -1,10 +1,13 @@
-import './App.css';
-
-export default function App() {
+import reactLogo from "./assets/react.svg";
+import "./App.css";
+function App() {
   return (
-    <main style={{ padding: 24 }}>
-      <h1>NotesApp — deployed on Amplify ✅</h1>
-      <p>If you see this on your Amplify URL, CI/CD is working.</p>
-    </main>
+    <div className="App">
+      <header className="App-header">
+        <img src={reactLogo} className="logo react" alt="React logo" />
+        <h1>Hello from Amplify</h1>
+      </header>
+    </div>
   );
 }
+export default App;
