@@ -121,5 +121,30 @@
       "nonModels": {}
     }
   },
+  "storage": {
+    "aws_region": "us-east-2",
+    "bucket_name": "amplify-notesapp-calebhar-notesimagesbucketc4edd03-keejt2jzwsns",
+    "buckets": [
+      {
+        "name": "notes-images",
+        "bucket_name": "amplify-notesapp-calebhar-notesimagesbucketc4edd03-keejt2jzwsns",
+        "aws_region": "us-east-2",
+        "paths": {
+          "public/*": {
+            "guest": [
+              "get",
+              "list"
+            ],
+            "authenticated": [
+              "get",
+              "list",
+              "write",
+              "delete"
+            ]
+          }
+        }
+      }
+    ]
+  },
   "version": "1.4"
 }
